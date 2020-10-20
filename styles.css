@@ -142,16 +142,16 @@ img[src='covid.jpg']{
     color: #ffffff;
     padding: 50px;
     padding-left: 20%;
+    float: left;
 }
 
 .testing .btn{
     background-color: #48BB78;
-    /*float: right;*/
+    float: right;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
     padding: 15px;
-    display: inline-block;
     text-decoration: none; /*remove line*/
 
 }
@@ -187,18 +187,20 @@ article{
     text-align: center;
     background-color: #48BB78;
     color: #ffffff;
+    float: left;
 }
 
 #email{
     border-radius: 5px;
     padding: 10px;
+    float: right;
 }
 
 form .btn{
     background-color: #5A67D8;
     border-radius: 5px;
     padding: 10px;
-    /*float: right;*/
+    float: right;
 }
 
 footer{

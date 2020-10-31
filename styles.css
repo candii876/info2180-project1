@@ -91,15 +91,16 @@ img[src='yoga.png']{
 
 .cards{
     display: flex;
-    flex-direction: row;
     column-count: 3;
+    column-gap: 20px;
+    padding: 25px;
 }
 
 .card{
     border: #E2E8F0;
     border-radius: 5px;
-    padding: 15px;
-    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06); /*borrowed from tic-tac-toe*/
+    padding: 25px;
+    box-shadow: 0 4px 6px -1px rgb(90, 87, 87), 0 2px 4px -1px rgba(90, 87, 87, 0.089); /*borrowed from tic-tac-toe*/
 }
 
 img[src='ai.png']{
@@ -146,21 +147,16 @@ img[src='covid.jpg']{
 
 .testing .btn{
     background-color: #48BB78;
-    float: right;
     border-radius: 5px;
     color: #ffffff;
     text-align: center;
     padding: 15px;
-    text-decoration: none; /*remove line*/
+    text-decoration: none; /*used to remove line*/
 }
 
-/*.testing-description{
-    flex-direction: row;
+.testing-description{
+    color: #0000ff;
 }
-
-.cta{
-    flex-direction: row;
-}*/
 
 .stories{
     grid-row: 5;
@@ -199,18 +195,19 @@ article{
 #email{
     border-radius: 5px;
     padding: 20px;
-    /*float: right;*/
 }
 
 form{
     display: flex;
-    flex-direction: row;
+    column-count: 2;
+    column-gap: 5px;
     justify-content: center;
     padding: 20px;
 }
 
 form .btn{
     background-color: #5A67D8;
+    color: #fff;
     border-radius: 5px;
     padding: 10px;
 }

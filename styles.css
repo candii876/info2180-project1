@@ -100,7 +100,7 @@ img[src='yoga.png']{
     border: #E2E8F0;
     border-radius: 5px;
     padding: 25px;
-    box-shadow: 0 4px 6px -1px rgb(90, 87, 87), 0 2px 4px -1px rgba(90, 87, 87, 0.089); /*borrowed from tic-tac-toe*/
+    box-shadow: 0 4px 6px -1px #E2E8F0; 
 }
 
 img[src='ai.png']{
@@ -144,6 +144,11 @@ img[src='covid.jpg']{
     display: flex;
     flex-direction: row;
 }
+
+/*.testing .container{
+    display: flex;
+    column-count: 2;
+}*/
 
 .testing .btn{
     background-color: #48BB78;
